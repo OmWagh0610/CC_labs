@@ -1,0 +1,17 @@
+VM1 - id & password:-  vagrant
+      ifconfig
+      sudo apt install net-tools
+      nano space <filename.txt>
+      write your message
+      ctrl + x
+      press y
+      scp <filename.txt> vagrant@inet(VM2):/home/vagrant
+
+VM2 - ifconfig(you check inet)
+      ls /home/vagrant
+      cat filename
+
+For network setup
+files-> tools-> network manager-> NAT network-> create
+VM1-> setting-> network-> NAT newtwork 
+VM2-> setting-> network-> NAT newtwork 
